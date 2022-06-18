@@ -1,0 +1,61 @@
+.accessory-element-menu-wap {
+}
+
+.accessory-element-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .menu-swiper-wrap {
+    width: 100%;
+    height: calc(100% - 66px);
+    padding: 12px 16px;
+    background-color: #ffffff;
+    flex: 1;
+    overflow: auto;
+
+    img {
+      margin: 0;
+    }
+  }
+
+  .menu-nav {
+    background-color: #ffffff;
+    padding: 0;
+    display: flex;
+
+    .menu-item-name {
+      padding: 6px;
+      font-size: 12px;
+      border-bottom: 2px solid #ffffff;
+    }
+
+    .menu-item-name:hover,
+    .menu-item-name.checked {
+      border-bottom: 2px solid #87bf3b;
+      color: #87bf3b;
+    }
+  }
+
+  .menu-nav.primiry {
+    .css-1aquho2-MuiTabs-indicator {
+      background-color:#87bf3b;
+    }
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+      color: #87bf3b;
+    }
+  }
+
+  .menu-nav .swiper-container .swiper-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
+  .menu-nav.primiry .swiper-container .swiper-wrapper {
+    background-color: #212121;
+    color: #ffffff;
+  }
+}

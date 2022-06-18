@@ -1,0 +1,63 @@
+.tree-container {
+}
+
+.tree-header {
+  display: flex;
+  text-align: center;
+  padding: 8px 12px;
+  justify-content: space-between;
+  .tree-extra {
+    display: flex;
+    margin: 0 8px;
+  }
+}
+
+.tree-node {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+
+  &.checked,
+  &:hover {
+    color: #ffffff;
+    background: #2b2b2b;
+
+    .element-item-li.right {
+      display: flex;
+    }
+  }
+
+  &:hover {
+    background: #ffffff33;
+  }
+
+  .tree-indent {
+    display: inline-block;
+
+    .tree-indent-unit {
+      display: inline-block;
+      width: 24px;
+    }
+  }
+
+  .tree-switcher {
+    position: relative;
+    flex: none;
+    align-self: stretch;
+    width: 24px;
+    margin: 0;
+    line-height: 0px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &.search-list {
+    padding: 4px 24px;
+  }
+}
+
+

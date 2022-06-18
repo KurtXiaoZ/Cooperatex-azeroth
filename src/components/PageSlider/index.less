@@ -1,0 +1,46 @@
+.page-list-slider-container {
+  width: 100%;
+  height: 100%;
+  // margin: 50% auto;
+  display: flex;
+  align-items: center;
+  .page-list-slider-content {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    align-items: center;
+
+    p {
+      width: 100%;
+      text-align: start;
+      padding: 0 10px;
+    }
+
+    .page-folder-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      margin: 10px;
+
+      .page-folder-title {
+        color: #e23dcc;
+      }
+
+      .page-folder-content {
+        border: 1px solid #e23dcc;
+        margin: 10px;
+        display: flex;
+      }
+    }
+
+    .page-slider-item {
+      margin: 10px;
+      .page-box {
+        width: 150px;
+        height: 200px;
+        background: #ffffff;
+      }
+    }
+  }
+}

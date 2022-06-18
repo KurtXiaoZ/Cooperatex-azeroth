@@ -1,0 +1,176 @@
+/* @font-face {
+  font-family: 'Open Sans';
+  src: url('./font/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('./font/OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Open Sans ExtraBold';
+  src: url('./font/OpenSans-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'Righteous';
+  src: url('./font/Righteous-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url('./font/Roboto-Bold.ttf');
+} */
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+/* cursors -- start */
+* {
+  cursor: auto;
+}
+a,
+button {
+  cursor: pointer;
+}
+p,
+span,
+label,
+h1,
+h2,
+h3,
+h4 {
+  cursor: default;
+}
+button p,
+button span,
+button svg,
+button i,
+a p,
+a span,
+a svg,
+a i {
+  /* cursor: pointer; */
+  pointer-events: none;
+}
+input {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  color: #ffffff;
+  font-size: 12px;
+  background-image: none;
+  border: 0px;
+  border-radius: 2px;
+}
+
+/* .cursor_1 * {
+  cursor: url('./stuff/cursor/cursor_test.svg'), auto;
+}
+.cursor_1 a,
+.cursor_1 button {
+  cursor: url('./stuff/cursor/cursor_test2.svg'), pointer;
+} */
+
+/* ... */
+
+/* cursors -- end */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div.grecaptcha-badge {
+  right: -24px !important;
+  bottom: 40px !important;
+  box-shadow: none !important;
+}
+
+svg._svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  transform-origin: center;
+  pointer-events: none;
+}
+/* svg._svg.spin {
+  animation: svgSpin 1000ms linear infinite;
+} */
+/* @keyframes svgSpin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1536px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 1280px) {
+  html {
+    font-size: 41.67%;
+  }
+}
+@media (max-width: 1199.98px) {
+  html {
+    font-size: 39.1%;
+  }
+}
+@media (max-width: 991.98px) {
+  html {
+    font-size: 32.3%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 575.98px) {
+  html {
+    font-size: 18.75%;
+  }
+} 
+

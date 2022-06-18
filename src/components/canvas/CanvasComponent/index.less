@@ -1,0 +1,61 @@
+@selection-color: #2680eb;
+@normal-color: transparent;
+@circle-radius: 3px;
+
+
+.canvas-component {
+    //border: 0.6px @normal-color solid;
+    position: relative;
+    z-index: 10;
+    //display:flex;
+    //justify-content: center;
+    //align-items: center;
+}
+
+.canvas-component-control {
+    border: 0.6px @normal-color solid;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-color: @selection-color;
+}
+
+.canvas-component-circle:hover {
+    background-color: @selection-color !important;
+}
+
+.canvas-component:hover .canvas-component-circle {
+    border: 0.6px solid @selection-color;
+    background-color: white;
+}
+
+.canvas-component-circle {
+    background-color: @normal-color;
+    width: 2*@circle-radius;
+    height: 2*@circle-radius;
+    border-radius: @circle-radius;
+    position: absolute;
+    border: 0.6px solid @selection-color;
+    background-color: white;
+    z-index: 100;
+}
+
+.canvas-component-setters {
+    position: absolute;
+}
+
+.canvas-component-setter-icon {
+    display: block;
+    margin-bottom: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.draggable {
+    position: absolute;
+}
+
+.circle-dragging {
+    background-color: @selection-color;
+}

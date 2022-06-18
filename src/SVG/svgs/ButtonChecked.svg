@@ -1,0 +1,16 @@
+<svg id="Button-选中" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <rect id="矩形_1540" data-name="矩形 1540" width="19" height="19" fill="#fff" opacity="0"/>
+  <g id="组_6031" data-name="组 6031" transform="translate(-93.502 -422.69)">
+    <g id="矩形_3272" data-name="矩形 3272" transform="translate(94.502 426.69)" fill="none" stroke="#ddd" stroke-width="1">
+      <rect width="17" height="11" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="16" height="10" rx="1.5" fill="none"/>
+    </g>
+    <g id="组_6029" data-name="组 6029" transform="translate(98.104 431.029)">
+      <g id="组_639" data-name="组 639" transform="translate(0 0)">
+        <path id="路径_452" data-name="路径 452" d="M969.565,149.276v-3.212h1.407a1.339,1.339,0,0,1,.861.229.791.791,0,0,1,.277.647.725.725,0,0,1-.156.458.712.712,0,0,1-.457.253v0a.818.818,0,0,1,.516.253.712.712,0,0,1,.18.487.776.776,0,0,1-.3.647,1.4,1.4,0,0,1-.873.234Zm.652-1.864h.667q.53,0,.53-.414t-.53-.414h-.667Zm0,1.358h.745a.613.613,0,0,0,.4-.112.387.387,0,0,0,.132-.311.378.378,0,0,0-.132-.311.629.629,0,0,0-.4-.107h-.745Z" transform="translate(-969.565 -146.064)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="路径_454" data-name="路径 454" d="M984.572,146.064v.54H983.5v2.672h-.672V146.6h-1.081v-.54Z" transform="translate(-978.308 -146.064)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="路径_457" data-name="路径 457" d="M1003.331,146.064v3.212h-.769l-1.125-1.888-.277-.525h-.005l.019.555v1.859h-.6v-3.212h.764l1.125,1.884.277.531h.01l-.02-.555v-1.859Z" transform="translate(-993.536 -146.064)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

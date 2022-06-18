@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <g id="page被选中" transform="translate(-115 -134)">
+    <rect id="矩形_1540" data-name="矩形 1540" width="19" height="19" transform="translate(115 134)" fill="#fff" opacity="0"/>
+    <g id="组_3914" data-name="组 3914" transform="translate(77.715)">
+      <g id="组_3906" data-name="组 3906" transform="translate(48.631 136)">
+        <path id="路径_691" data-name="路径 691" d="M494.729,567.286h-4.173a.556.556,0,0,1-.556-.556v-4.173a.556.556,0,0,1,1.113,0v3.617h3.617a.556.556,0,1,1,0,1.113Z" transform="translate(-490 -562)" fill="#fff"/>
+      </g>
+      <g id="组_3907" data-name="组 3907" transform="translate(40.285 136)">
+        <path id="路径_692" data-name="路径 692" d="M353.076,577.134H340.556a.556.556,0,0,1-.556-.556V562.556a.556.556,0,0,1,.556-.556H348.9a.556.556,0,0,1,.393.163l4.173,4.173a.556.556,0,0,1,.163.393v9.848A.556.556,0,0,1,353.076,577.134Zm-11.963-1.113h11.406V566.96l-3.847-3.847h-7.559Z" transform="translate(-340 -562)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

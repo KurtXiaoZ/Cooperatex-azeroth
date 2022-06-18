@@ -1,0 +1,38 @@
+@hover-color: #c0ff6a;
+@background: #292929;
+@primiry-font-color: #ffffff;
+
+.select-container {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 22px;
+  padding: 2px 8px;
+  min-width: 0;
+  color: @primiry-font-color;
+  font-size: 12px;
+  background-color: @background;
+  background-image: none;
+  border: 0px;
+  border-radius: 3px;
+  option {
+    border-radius: 3px;
+    height: 22px;
+    line-height: 22px;
+    background-color: #393939;
+  }
+  option:hover {
+    background-color: #ffffff;
+    color: @hover-color;
+  }
+}
+
+.select-container:hover {
+  border: 1px solid @hover-color;
+  box-shadow: 0 0 3px @hover-color;
+}

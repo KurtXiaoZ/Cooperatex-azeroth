@@ -1,0 +1,14 @@
+<svg id="Slider" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <rect id="矩形_1540" data-name="矩形 1540" width="19" height="19" fill="#fff" opacity="0"/>
+  <g id="组_6037" data-name="组 6037" transform="translate(-428.203 -552.498)">
+    <g id="矩形_3081" data-name="矩形 3081" transform="translate(430.203 555.498)" fill="none" stroke="#dcdcdc" stroke-width="1">
+      <rect width="15" height="12" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="14" height="11" rx="0.5" fill="none"/>
+    </g>
+    <g id="组_5632" data-name="组 5632" transform="translate(434.841 568.223)">
+      <rect id="矩形_3082" data-name="矩形 3082" width="1" height="1" rx="0.5" transform="translate(0.362 0.275)" fill="#dcdcdc"/>
+      <rect id="矩形_3083" data-name="矩形 3083" width="1" height="1" rx="0.5" transform="translate(2.362 0.275)" fill="#dcdcdc" opacity="0.4"/>
+      <rect id="矩形_3084" data-name="矩形 3084" width="1" height="1" rx="0.5" transform="translate(4.362 0.275)" fill="#dcdcdc" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

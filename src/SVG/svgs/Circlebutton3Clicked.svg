@@ -1,0 +1,7 @@
+<svg id="圆形button3_on_click" data-name="圆形button3 on click" xmlns="http://www.w3.org/2000/svg" width="103" height="28" viewBox="0 0 103 28">
+  <g id="矩形_3090" data-name="矩形 3090" fill="none" stroke="#c0ff6a" stroke-width="2">
+    <rect width="103" height="28" rx="14" stroke="none"/>
+    <rect x="1" y="1" width="101" height="26" rx="13" fill="none"/>
+  </g>
+  <text id="Button" transform="translate(52 18)" fill="#c0ff6a" font-size="12" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.08em"><tspan x="-20.174" y="0">Button</tspan></text>
+</svg>

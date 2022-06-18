@@ -1,0 +1,332 @@
+.ir-model {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: fit-content;
+    background-color: #373737;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 200;
+}
+
+.ir-model-header {
+    height: 42px;
+    width: 100%;
+    position: relative;
+}
+
+.ir-model-header-title {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFFB2;
+}
+
+.ir-model-header-close {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ir-model-footer {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.ir-model-footer-title {
+    position: absolute;
+    left: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.detail-color {
+    color: #FFFFFF80;
+}
+
+.detail-color:hover {
+    color: #FFFFFF;
+}
+
+.merge-color {
+    color: #87BF3B;
+}
+
+.merge-color:hover {
+    color: #C0FF6A;
+}
+
+.ir-model-footer-close {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 36px;
+    width: 112px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.ir-model-footer-close:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ir-model-footer-close-disable {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 36px;
+    width: 112px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF4D;
+}
+
+.ir-model-content-summary {
+    //margin-left: 16px;
+    //margin-right: 16px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 4px 8px;
+    color: white;
+}
+
+.ir-model-content-text {
+    //margin-left: 16px;
+    //margin-right: 16px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0em;
+    text-align: left;
+    //padding: 4px 8px;
+    color: white;
+}
+
+.merge-content {
+    border: 1px solid #FFFFFF4D;
+    border-radius: 5px;
+}
+
+.merge-options {
+    margin: 0 20px;
+}
+
+.ir-model-content {
+    text-align: left;
+    margin: 0 20px;
+}
+
+.ir-model-content-search {
+    display: flex;
+    align-items: center;
+}
+
+.ir-model-content-search-input {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    background-color: transparent;
+}
+
+.ir-model-content-merge-options {
+    height: fit-content;
+    max-height: 300px;
+    overflow: visible;
+}
+
+.ir-model-system {
+}
+
+.ir-model-system-header {
+    display: flex;
+    align-items: center;
+}
+
+.ir-model-system-name {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    padding-bottom: 5px;
+}
+
+.ir-model-rule {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px 0px;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 24px;
+    margin-bottom: 4px;
+}
+
+.ir-model-rule-selected {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px 0px;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 24px;
+    margin-bottom: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.ir-model-rule:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.detail-title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+}
+
+.final-options {
+    overflow: auto;
+    height: fit-content;
+    max-height: 170px;
+}
+
+.ir-model-final-option {
+    position: relative;
+    z-index: 201;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    border: 1px solid #FFFFFF4D;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    height: fit-content;
+}
+
+.option-drag-operator {
+    display: none;
+}
+
+.right-icon {
+    margin-left: auto;
+}
+
+.option-drag-operator-warning {
+    display: block;
+}
+
+.ir-model-final-option:hover {
+    .option-drag-operator {
+        display: inline-block;
+    }
+    .option-drag-operator-warning {
+        display: none;
+    }
+    background-color: #4B4B4B;
+}
+
+.ir-model-final-option-text {
+    //styleName: IR信息显示;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+.final-detail {
+    padding-left: 0px;
+}
+
+.final-name-setter {
+    display: flex;
+    margin-top: 10px;
+}
+
+.final-name-setter-text {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFFB2;
+}
+
+.final-name-setter-input {
+    width: 340px;
+    margin-left: 5px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.ir-detail {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    margin-left: 27px;
+}
+
+.delete-icon {
+    margin-left: auto;
+}

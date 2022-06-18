@@ -1,0 +1,58 @@
+
+.draggable-tree{
+  padding: 0 8px;
+
+  .rc-tree .rc-tree-treenode {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+
+    &.rc-tree-treenode-selected {
+      background: #2b2b2b;
+    }
+    &:hover {
+      background: #ffffff33;
+    }
+  }
+
+  .rc-tree .rc-tree-treenode .rc-tree-node-content-wrapper {
+    padding-left: 2px;
+    display: inline-flex;
+    align-items: center;
+    flex: 1;
+    height: 30px;
+
+    .rc-tree-title { 
+      flex: 1;
+    }
+  }
+
+  .rc-tree .rc-tree-treenode span.rc-tree-switcher {
+    background-image: none;
+    text-align: center;
+    opacity: 1;
+  }
+
+  .rc-tree .rc-tree-treenode span.rc-tree-iconEle {
+    // vertical-align: middle;
+    margin-right: 8px;
+
+  }
+
+  .rc-tree-node-selected {
+    background-color: #00000000;
+    box-shadow: none;
+    opacity: 1;
+  }
+
+  .icon {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+  }
+
+  
+  
+}

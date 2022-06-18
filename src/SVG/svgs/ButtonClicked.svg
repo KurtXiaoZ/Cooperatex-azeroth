@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="34" viewBox="0 0 38 34">
+  <g id="Button_变亮" data-name="Button 变亮" transform="translate(-472 -661)">
+    <rect id="矩形_2278" data-name="矩形 2278" width="38" height="34" transform="translate(472 661)" fill="#fff" opacity="0"/>
+    <g id="矩形_2279" data-name="矩形 2279" transform="translate(478 671)" fill="none" stroke="#fff" stroke-width="1.6">
+      <rect width="26" height="15" rx="2" stroke="none"/>
+      <rect x="0.8" y="0.8" width="24.4" height="13.4" rx="1.2" fill="none"/>
+    </g>
+    <g id="组_5179" data-name="组 5179" transform="translate(-273.389 522.185)">
+      <g id="组_639" data-name="组 639" transform="translate(757.166 154.229)">
+        <path id="路径_452" data-name="路径 452" d="M969.565,150.8v-4.738h2.075a1.975,1.975,0,0,1,1.27.338,1.167,1.167,0,0,1,.409.954,1.069,1.069,0,0,1-.23.675,1.049,1.049,0,0,1-.674.373v.007a1.207,1.207,0,0,1,.761.373,1.05,1.05,0,0,1,.265.718,1.144,1.144,0,0,1-.441.954,2.06,2.06,0,0,1-1.288.345Zm.961-2.749h.984q.782,0,.782-.611t-.782-.611h-.984Zm0,2h1.1a.9.9,0,0,0,.6-.165.57.57,0,0,0,.194-.459.557.557,0,0,0-.194-.459.928.928,0,0,0-.6-.158h-1.1Z" transform="translate(-969.565 -146.064)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="路径_454" data-name="路径 454" d="M985.915,146.064v.8h-1.586V150.8h-.99v-3.941h-1.594v-.8Z" transform="translate(-976.676 -146.064)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="路径_457" data-name="路径 457" d="M1004.641,146.064V150.8h-1.134l-1.658-2.785-.409-.775h-.008l.029.819V150.8h-.89v-4.738h1.127l1.659,2.778.409.783h.015l-.03-.819v-2.742Z" transform="translate(-990.195 -146.064)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

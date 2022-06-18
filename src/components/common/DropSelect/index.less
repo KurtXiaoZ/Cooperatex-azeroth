@@ -1,0 +1,92 @@
+.drop-container {
+  width: 100%;
+}
+
+.drop-container.editable {
+  width: calc(100% + 42px);
+}
+
+.drop-content {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #4b4b4b;
+  display: flex;
+  justify-content: space-between;
+}
+
+.drop-content.editable {
+  width: calc(100% - 42px);
+}
+
+.drop-value {
+  flex: 1;
+  padding: 0px 20px;
+  line-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.drop-down-button {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #545454;
+  text-align: center;
+  border-radius: 0 3px 3px 0;
+
+  &.clicked {
+    background-color: #4b4b4b;
+  }
+}
+
+.dropdown-list-wrap {
+  width: 100%;
+}
+.dropdown-list-content {
+  max-height: 112px;
+  overflow-y: auto;
+  .dropdown-list-item {
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+
+    .dropdown-list-text {
+      flex: 1;
+      padding: 0px 20px;
+      overflow: hidden;
+      line-height: 28px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      background-color: #4b4b4b;
+
+      &:hover .dropdown-list-delete .dropdown-list-delete-icon {
+        background-color: #707070;
+      }
+    }
+
+    &:first-child .dropdown-list-text {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-top: 1px solid #373737;
+    }
+    &:last-child .dropdown-list-text {
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+
+    .dropdown-list-delete {
+      margin: 4px 8px;
+      .dropdown-list-delete-icon {
+        width: 26px;
+        border-radius: 4px;
+        text-align: center;
+      }
+    }
+  }
+
+  .dropdown-list-item:hover {
+    color: #ff7878;
+  }
+}
